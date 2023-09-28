@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page</title>
+    </head>
+    <body>
+        <h1>Welcome to My Web Page</h1>
+        <p>This is a simple web page with a chatbot.</p>
+
+        <!-- Your chatbot script here -->
+        <script type="module">
+            import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+            Chatbot.init({
+                chatflowid: "4fb632c1-7b3e-46e8-904f-26f05767a6cb",
+                apiHost: "https://flowise.huaqloud.com",
+            })
+        </script>
+    </body>
+</html>
